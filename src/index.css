@@ -6,9 +6,11 @@ body {
 
 .product {
   /* background-color: #7c96ab; */
-  display: inline-flex;
+  display: flex;
   margin: 20px 10px;
   position: relative;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .product .right-block {
@@ -17,12 +19,14 @@ body {
   padding: 0 20px;
 }
 .product-actions {
-  margin-top: 20px;
+  margin-top: 10px;
 }
-.action-icons {
-  height: 25px;
-  width: 25px;
+.add-to-cart {
+  border-radius: 18px;
   margin-right: 10px;
+  color: Red;
+  font-weight: bold;
+  background-color: #f17d18;
 }
 .action-icons:hover {
   cursor: pointer;
