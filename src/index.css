@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b7b7b7;
+}
+
+.product {
+  /* background-color: #7c96ab; */
+  display: inline-flex;
+  margin: 20px 10px;
+  position: relative;
+}
+
+.product .right-block {
+  color: #262a56;
+  font-size: 25px;
+  padding: 0 20px;
+}
+.product-actions {
+  margin-top: 20px;
+}
+.action-icons {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.action-icons:hover {
+  cursor: pointer;
+}
